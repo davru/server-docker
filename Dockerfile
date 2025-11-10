@@ -58,16 +58,16 @@ EXPOSE 11470
 EXPOSE 12470
 
 # full path to the ffmpeg binary
-ENV FFMPEG_BIN=
+#ENV FFMPEG_BIN=
 
 # full path to the ffprobe binary
-ENV FFPROBE_BIN=
+#ENV FFPROBE_BIN=
 
 # Custom application path for storing server settings, certificates, etc
-ENV APP_PATH=
+#ENV APP_PATH=
 
 # Use `NO_CORS=1` to disable the server's CORS checks
-ENV NO_CORS=
+ENV NO_CORS=1
 
 # "Docker image shouldn't attempt to find network devices or local video players."
 # See: https://github.com/Stremio/server-docker/issues/7
