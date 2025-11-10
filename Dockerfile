@@ -5,7 +5,7 @@ ARG NODE_VERSION=14
 
 FROM node:$NODE_VERSION
 
-ARG VERSION=master
+ARG VERSION=v4.20.12
 # Which build to download for the image,
 # possible values are: desktop, android, androidtv, webos and tizen
 # webos and tizen require older versions of node:
